@@ -14,14 +14,14 @@ const ReadList = () => {
   const readListData = useLoaderData();
 
   useEffect(() => {
-    // Read List
+    
     const storedBookData = getStoredBook().map((id) => parseInt(id));
     const myReadList = readListData.filter((book) =>
       storedBookData.includes(book.bookId)
     );
     setReadList(myReadList);
 
-    // Wishlist
+    
     const storedWishlistData = getStoredWishlist().map((id) => parseInt(id));
     const myWishlist = readListData.filter((book) =>
       storedWishlistData.includes(book.bookId)
