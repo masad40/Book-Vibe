@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* index.css */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Optional: Reset for all elements */
+/* * {
+  background-color: inherit;
+  color: inherit;
+} */
