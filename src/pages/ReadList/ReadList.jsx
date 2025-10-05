@@ -68,7 +68,7 @@ const ReadList = () => {
           <Tab>Wishlist Books</Tab>
         </TabList>
 
-        {/* Read Books Panel */}
+       
         <TabPanel>
           <div className="dropdown dropdown-bottom dropdown-center mb-4">
             <div tabIndex={0} role="button" className="btn m-1 rounded-xl bg-green-100 text-green-500">
@@ -87,7 +87,7 @@ const ReadList = () => {
           ))}
         </TabPanel>
 
-        {/* Wishlist Books Panel */}
+        
         <TabPanel>
           <div className="dropdown dropdown-bottom dropdown-center mb-4">
             <div tabIndex={0} role="button" className="btn m-1 rounded-xl bg-green-500 text-white">
